@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matching Interface</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=B612:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@400..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <h1 class="welcomeText" style="font-size: 20px">[R1-Finder]</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm">
+                <div class="card" style="width: 35rem;" onclick="changeColor(this)" onmouseover="resetColor(this)">
+                    <div class="card-body">
+                        <h5 class="card-title projectName">UW Medicine Covered Registry</h5>
+                        <h6 class="card-subtitle mb-2 text-muted locationName">UW Medicine Diabetes Institute | .04 miles away</h6>
+                        <p class="card-text" style="font-family: Cabin">The goal of this patient registry is to connect people interested in diabetes care with researchers...</p>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 35rem;" onclick="changeColor(this)" onmouseover="resetColor(this)">
+                    <div class="card-body">
+                        <h5 class="card-title projectName">Parkinson's and Speech Changes</h5>
+                        <h6 class="card-subtitle mb-2 text-muted locationName">UW SPEAC Lab | 3.5 miles away</h6>
+                        <p class="card-text" style="font-family: Cabin">The University of Washington SPEAC Lab is inviting individuals who have experienced changes to their speech and/or voice due to Parkinson’s disease to...</p>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 35rem;" onclick="changeColor(this)" onmouseover="resetColor(this)">
+                    <div class="card-body">
+                        <h5 class="card-title projectName">Long COVID and Attention</h5>
+                        <h6 class="card-subtitle mb-2 text-muted locationName">UW Medicine COVID Center | 0.7 miles away</h6>
+                        <p class="card-text" style="font-family: Cabin">We are looking for participants who are have had a COVID-19 diagnosis in the past year...</p>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 35rem;" onclick="changeColor(this)" onmouseover="resetColor(this)">
+                    <div class="card-body">
+                        <h5 class="card-title projectName">Design for Recording Menopause</h5>
+                        <h6 class="card-subtitle mb-2 text-muted locationName">UW Women's Health Care | 0.5 miles away</h6>
+                        <p class="card-text" style="font-family: Cabin">Family history is seen to have important implications in menopause but due to a number of reasons such as...</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md">
+            <img src="test.png" style="width: 30em; height: 30em;" id="test" visibility="hidden" />
+            </div>
+        </div>
+    </div>
+        </div>
+    </div>
+  </body>
+</html>
