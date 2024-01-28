@@ -41,3 +41,7 @@
     font-family: "Inter";
     font-size: 16px;
 }
+
+#hideTheImage {
+    display: none;
+}

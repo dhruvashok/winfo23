@@ -1,5 +1,6 @@
 function showOpportunity() {
-    document.getElementById("test").style.display = 'visible';
+    // var status = document.getElementById("hideTheImage").style.display;
+    document.getElementById("hideTheImage").style.display = 'block';
 }
 
 function changeColor(elem) {
